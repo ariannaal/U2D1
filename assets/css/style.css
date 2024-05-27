@@ -241,6 +241,9 @@ footer a {
     text-transform: uppercase;
 }
 
+* {
+    box-sizing: border-box;
+}
 
 /* mobile */
 @media screen and (max-width:575px) {
@@ -261,8 +264,8 @@ footer a {
         line-height: 1.7em;
     }
 
-    td {
-        width: 11em;
+    table {
+        width: 80%;
     }
 
     aside h2 {
@@ -278,7 +281,60 @@ footer a {
 
 
 /* medium */
-@media screen and (min-width:768px) and (991px) {}
+@media screen and (min-width:768px) and (max-width: 991px) {
+    header div p {
+        font-size: 1.2em;
+    }
+
+    header nav li a {
+        float: left;
+        margin-left: 20px;
+    }
+
+    header {
+        height: 200px;
+    }
+
+    .img-badge {
+        height: 50px;
+        width: 50px;
+    }
+
+    p,
+    li,
+    h2 {
+        font-size: 1.5em;
+        line-height: 1.7em;
+    }
+
+    h2 {
+        font-weight: bold;
+    }
+
+    table {
+        width: 70%;
+
+    }
+
+    form input {
+        width: 60%;
+        height: 40px;
+    }
+
+    form button {
+        height: 40px;
+        width: 20%;
+    }
+
+    aside h2 {
+        font-size: 2em;
+    }
+
+    footer {
+        height: 130px;
+    }
+
+}
 
 
 /* desktop */
