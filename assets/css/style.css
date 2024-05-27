@@ -338,4 +338,104 @@ footer a {
 
 
 /* desktop */
-@media screen and (min-width: 992px) and (max-width:1199px) {}
+@media screen and (min-width: 992px) and (max-width:1199px) {
+    header {
+        height: 4em;
+        width: 90%;
+        position: relative;
+        margin: auto;
+    }
+
+    .logo {
+        width: 130px;
+        position: absolute;
+        display: block;
+        margin-top: -30px;
+    }
+
+    header p {
+        position: absolute;
+        margin-left: 12em;
+        line-height: 5px;
+    }
+
+    main {
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    nav ul li {
+        display: inline;
+        margin-left: 40px;
+    }
+
+    header ul {
+        display: flex;
+        float: right;
+    }
+
+    .img-badge {
+        height: 60px;
+        width: 60px;
+    }
+
+    p,
+    li,
+    h2 {
+        font-size: 1.2em;
+        line-height: 1.9em;
+    }
+
+    table {
+        width: 70%;
+    }
+
+    .table-container {
+        display: flex;
+        flex-direction: row;
+        align-content: stretch;
+        justify-content: space-evenly;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    iframe {
+        width: 50%;
+        height: 250px;
+    }
+
+    #sezione-novita {
+        width: 50%;
+        border-radius: 20px;
+        float: right;
+        height: 250px;
+    }
+
+    form input {
+        width: 70%;
+        height: 40px;
+    }
+
+    form button {
+        height: 40px;
+        width: 20%;
+    }
+
+    aside div {
+        width: 30%;
+        display: inline-block;
+        text-align: left;
+    }
+
+    aside {
+        text-align: center;
+    }
+
+    footer {
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+}
